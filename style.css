@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    
+}
+.empty{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    border: 3px solid aqua;
+    background-color: #fff;
+
+}
+.fill{
+    background-image: url("https://source.unsplash.com/random/150x150");
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top :5px;
+    left: 5px;
+    cursor: pointer;
+}
+.hold{
+    border: 2px solid red;
+}
+.hovered{
+    background: #fff;
+    border-style: dashed;
+}
